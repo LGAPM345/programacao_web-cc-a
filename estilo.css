@@ -3,8 +3,21 @@
     text-align: center;
 }
 .entradas-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    max-width: 300px;
     border: 1px solid;
 }
+.entradas-formulario input,
+
+.entradas-formulario button{
+padding: 10px;
+font-size: 16px;
+}
 .rodape{
+    text-align: end;
+    margin-top: 20px;
     border: 1px solid;
 }
