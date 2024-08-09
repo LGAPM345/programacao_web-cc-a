@@ -24,7 +24,7 @@ font-size: 22px;
 /*Estilização do rodapé */
 .rodape{
     position: absolute;
-    bottom: 0;
+    bottom: -300px;
     font-size: 16px;
 
     text-align: end;
@@ -49,4 +49,14 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.pv{
+    font-size: larger;
+    color: aqua;
+}
+.paragrafo{
+    font-size: 22px;
+    margin: 10px;
+    padding: 5px;
+    color: rgb(17, 238, 231);
 }
