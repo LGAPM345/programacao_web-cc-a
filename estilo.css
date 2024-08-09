@@ -24,7 +24,7 @@ font-size: 22px;
 /*Estilização do rodapé */
 .rodape{
     position: absolute;
-    bottom: -300px;
+    bottom: -750px;
     font-size: 16px;
 
     text-align: end;
@@ -40,7 +40,7 @@ font-size: 22px;
 }
 .encaixe-img{
     position: relative;
-    bottom: 125px; left: 650px; 
+    top: -125px; left: 650px; 
     padding: 100px;
     width: 400px;
 }
@@ -58,10 +58,11 @@ body{
     font-size: 22px;
     margin: 10px;
     padding: 5px;
+    border: 10px;
     color: rgb(17, 238, 231);
 }
 .audio{
     margin: 0;
     position: absolute;
-    top: 300px; left: 30px;
+    top: 400px; left: 30px;
 }
