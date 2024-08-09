@@ -46,7 +46,7 @@ font-size: 22px;
 }
 body{
     background-image: url(imagens/Background\ outer\ wilds.jpg);
-    background-size cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
