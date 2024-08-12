@@ -40,6 +40,8 @@ font-size: 22px;
     padding:5px;
     margin-top: 20px;
     width: 100%;
+    background-color: black;
+    border-radius: 20px;
 }
 /*Estilização do local das caixas de inserção*/
 .container{
