@@ -3,9 +3,11 @@
 }
 /* Estilização do título por meio de um ID*/
 #titulo{
-    color: rgb(17, 238, 231);
+    color: rgb(5, 97, 184);
     text-align: center;
     font-size: 55px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0);
 }
 /* Estilização das caixas de texto/botão */
 .entradas-formulario {
@@ -72,7 +74,9 @@ body{
     margin: 20px;
     padding: 5px;
     border: 10px;
-    color: rgb(17, 238, 231);
+    border-radius: 20px;
+    color: rgb(5, 97, 184);
+    background-color: rgba(0,0,0);
 }
 /*Estilização da caixa de áudio*/
 #audio{
