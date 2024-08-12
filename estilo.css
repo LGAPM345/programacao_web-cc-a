@@ -47,13 +47,12 @@ font-size: 22px;
     flex-grow: 1;
 }
 /*Posicionamento da imagem de Outer Wilds*/
-/*
 #encaixe-img{
     position: relative;
-    top: -125px; left: 650px; 
+    left: 60%;
     padding: 100px;
-    width: 400px;
-}*/
+    width: 500px;
+}
 /*Definição da imagem de plano de fundo*/
 body{
     background-image: url(imagens/Background\ outer\ wilds.jpg);
@@ -68,16 +67,33 @@ body{
 }
 /*Estilização dos parágrafos*/
 .paragrafo{
+    display: block;
     font-size: 22px;
-    margin: 10px;
+    margin: 20px;
     padding: 5px;
     border: 10px;
     color: rgb(17, 238, 231);
 }
 /*Estilização da caixa de áudio*/
-.audio{
+#audio{
     margin: 0;
     position: absolute;
     top: 400px; left: 30px;
     display: block;
+}
+#caixa-mus{
+    margin: auto;
+    position: absolute;
+    top: 350px; left: 30px;
+    display: block;
+    color: aqua;
+    border: 20px;
+}
+#ref-mus{
+    margin: auto;
+    position: absolute;
+    top: 460px; left: 40px;
+    font-size: small;
+    display: block;
+    color: aqua;
 }
