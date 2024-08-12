@@ -1,3 +1,6 @@
+*{
+    margin:0px;
+}
 /* Estilização do título por meio de um ID*/
 #titulo{
     color: rgb(17, 238, 231);
@@ -15,6 +18,10 @@
     max-width: 300px;
     padding: 50px;
     box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 .entradas-formulario input,
 .entradas-formulario button{
@@ -23,12 +30,12 @@ font-size: 22px;
 }
 /*Estilização do rodapé */
 .rodape{
-    position: absolute;
-    bottom: -750px;
+    position: fixed;
+    bottom: 0px;
     font-size: 16px;
 
-    text-align: end;
-    padding: 10px;
+    text-align: center;
+    padding:5px;
     margin-top: 20px;
     width: 100%;
 }
@@ -40,12 +47,13 @@ font-size: 22px;
     flex-grow: 1;
 }
 /*Posicionamento da imagem de Outer Wilds*/
+/*
 #encaixe-img{
     position: relative;
     top: -125px; left: 650px; 
     padding: 100px;
     width: 400px;
-}
+}*/
 /*Definição da imagem de plano de fundo*/
 body{
     background-image: url(imagens/Background\ outer\ wilds.jpg);
@@ -71,4 +79,5 @@ body{
     margin: 0;
     position: absolute;
     top: 400px; left: 30px;
+    display: block;
 }
