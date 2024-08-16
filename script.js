@@ -1,8 +1,8 @@
 let botaosub = document.getElementById("botao-sub");
 
-botaosub.addEventListener("click", submeter);
+botaosub.addEventListener("click", inserir);
 
-function submeter() {
+function inserir() {
     let ElementoPlaneta = document.getElementById("planeta").value;
     console.log(ElementoPlaneta);
     let ElementoInstrumento = document.getElementById("instrumento").value;

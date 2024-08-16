@@ -51,10 +51,10 @@ font-size: 22px;
     flex-grow: 1;
 }
 /*Posicionamento da imagem de Outer Wilds*/
-#encaixe-img{
+#encaixe-img-owv{
     position: relative;
-    left: 60%;
-    padding: 100px;
+    left: 70%;
+    padding: 30px;
     width: 500px;
 }
 /*Definição da imagem de plano de fundo*/

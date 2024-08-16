@@ -7,13 +7,15 @@
     <title>Programação Web Turma A CC</title>
     <!--link para o css-->
     <link rel="stylesheet" href="estilo.css">
-
+    <!--Definição da imagem do ícone da página-->
     <link rel="icon" href="imagens/outer wilds ventures.png">
 </head>
 <body class="paragrafo">
     <div class="container">
+        <!--definição do título da página-->
         <h1 id="titulo">Localizador de exploradores da Outer Wilds Ventures</h1>
         <div class="paragrafo">
+            <!--parágrafos explicativos-->
         <p>
             Neste site você poderá encontrar a localização dos exploradores e um guia de 
             como os alcançar apenas digitando o nome do planeta ou o instrumento musical 
@@ -23,22 +25,24 @@
             Aviso: contém sérios spoilers de Outer Wilds, portanto não é recomendado ler o conteúdo do site caso não tenha jogado o jogo.
         </p>
         </div>
+        <!--definição das entradas de inserção-->
         <div class="entradas-formulario">
             <h3 class="pv">Insira:</h3>
             <input id="planeta" type="text" placeholder="Planeta">
             <h3 class="pv">Ou</h3>
             <input id="instrumento"type="text"placeholder="Instrumento Musical">
+            <!--definição do botão-->
             <button id="botao-sub">--|-..|-.</button>
         </div>
-        <!--Definição do rodapé-->
+        <!--definição do rodapé-->
         <footer class="rodape" style="color: rgb(241, 179, 8);">Criado por LuisGuilherme345</footer>
     </div>
-    <!--Definição do símbolo da Outer WIlds Ventures-->
+    <!--definição do símbolo da Outer WIlds Ventures-->
     <img
-        id="encaixe-img"
+        id="encaixe-img-owv"
         src="imagens/outer wilds ventures.png"
         alt="Outer wilds ventures">      
-    <!--Definição da música em loop de Outer Wilds-->
+    <!--definição da música em loop de Outer Wilds-->
     <p id="caixa-mus">
         Ligar/Pausar/Regular o volume da música
     </p>
@@ -50,6 +54,7 @@
             Seu navegador não suporta o elemento de áudio.
         </audio>     
         <!--Para que o autoplay funcione, é necessário fazer com que o navegador aceite o site nas suas configurações de privacidade-->
+        <!--link para o java script-->
         <script src="script.js"></script>
 </body>
 </html>
